@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Oswald&family=Pacifico&display=swap');
+
+:root {
+    --primary-color: rgb(1, 57, 78);
+    --on-background: rgb(66, 66, 66);
+    --on-background-alt: rgb(66, 66, 66);
+    --about-school-background-image: url('../img/GB.jpg');
+    --secondary-color: #ee430f;
+    --background: rgb(255, 255, 255);
+    --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Comfortaa, sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    z-index: 20;
+    font-family: Oswald, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+  
+h2 {
+    z-index: 20;
+    color: var(--on-background-alt);
+    font-size: 32px;
+    font-weight: normal;
+}
+
+
+/* Navigation */
+nav {
+    z-index: 10;
+    position: fixed;
+    font-family: Oswald, sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    padding: 25px;
+    width: 100vw;
+    background: rgb(255 255 255 / 50%);
+}
+  
+a {
+    margin-right: 25px;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-weight: bold;
+}
+  
+a:hover,
+a:focus {
+    color: var(--on-background);
+    border-bottom: 3px solid;
+}
+
+/* About School Section */
+.title-group {
+    text-align: center;
+}
+
+#about-school {
+    background-image: var(--about-school-background-image);
+    background-size: 100%;
+}
+
+.about-school-section-text {
+    padding-bottom: 30px;
+}
+
+.images1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 25px;
+    width: auto;
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+#image1, #image2, #image3, #image4 {
+    height: 250px;
+    width: 250px;
+}
