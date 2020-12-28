@@ -10,6 +10,7 @@
     --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
     --second-section-color: rgb(234, 244, 246);
     --third-section-color:rgb(248, 237, 241);
+    --fourth-section-color:rgb(254, 254, 254);
 
 }
 
@@ -93,7 +94,7 @@ a:focus {
     align-items: center;
 }
 
-.container {
+.container, .container-4rd-section {
     border: 1px solid var(--secondary-color);
     border-radius: 10px;
     padding: 10px 20px;
@@ -177,4 +178,30 @@ a:focus {
  #image10, #image11 {
     height: 20rem;
     width: 15rem;
+}
+
+/* Fourth Section */
+#price {
+    background-color: var(--fourth-section-color);
+}
+
+.first-row, .third-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-row {
+    padding-top: 10rem;
+}
+
+.container-4rd-section {
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.second-row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
