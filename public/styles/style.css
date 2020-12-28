@@ -9,6 +9,7 @@
     --background: rgb(255, 255, 255);
     --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
     --second-section-color: rgb(234, 244, 246);
+    --third-section-color:rgb(248, 237, 241);
 
 }
 
@@ -85,7 +86,7 @@ a:focus {
     padding-bottom: 30px;
 }
 
-.images1 {
+.images1, .images2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -106,7 +107,8 @@ a:focus {
     align-items: center;
 }
   
-#image1, #image2, #image3, #image4 {
+#image1, #image2, #image3, #image4,#image5,
+#image6 {
     height: 250px;
     width: 250px;
 }
@@ -148,3 +150,31 @@ a:focus {
     flex-direction: row-reverse;
 }
 
+/* Third Section */
+#necessity {
+    background-color: var(--third-section-color);
+}
+
+.third-section-text-section, h2 {
+    padding-bottom: 2rem;
+}
+
+.container-3rd-section {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 25px;
+    width: 18rem;
+    background: var(--background);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ #image7, #image8, #image9,
+ #image10, #image11 {
+    height: 20rem;
+    width: 15rem;
+}
