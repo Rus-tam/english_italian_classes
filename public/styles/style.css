@@ -137,7 +137,6 @@ a:focus {
     padding-right: 40rem;
     display: flex;
     flex-direction: row;
-
 }
 
 .first-teacher-text-section, .second-teacher-text-section, .first-review-text-section, .second-review-text-section p {
@@ -219,7 +218,7 @@ a:focus {
     padding-bottom: 1rem;
 }
 
-/* Reviews */
+/* Reviews Section*/
 #reviews {
     background-color: var(--second-section-color);
 }
@@ -309,6 +308,69 @@ footer {
 
     /* Second Section */
 
-    
+    .second-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #image5, #image6, #image12, #image13 {
+        height: auto;
+        width: 90px;
+    }
+
+    .first-teacher, .first-review {
+        position: relative;
+        top: -16rem;
+        padding-top: 1rem;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .first-teacher-text-section, .second-teacher-text-section, .first-review-text-section, .second-review-text-section p {
+        height: 10px;
+        width: 200px;
+        line-height: 1rem;
+        font-size: 10px;
+    }
+
+    .second-teacher-text-section, .first-review-text-section, .second-review-text-section {
+        padding-right: 1rem;
+    }
+
+    .second-teacher, .second-review {
+        z-index: 10;
+        position: relative;
+        top: 2rem;
+        right: 20.5rem;
+        display: flex;
+        flex-direction: row;
+    }
 }
 
+/* .first-teacher-text-section, .second-teacher-text-section, .first-review-text-section, .second-review-text-section p {
+    height: 200px;
+    width: 500px;
+    line-height: 1.4rem;
+}
+
+.second-teacher-text-section, .first-review-text-section, .second-review-text-section {
+    padding-right: 2rem;
+}
+
+.second-teacher, .second-review {
+    z-index: 15;
+    position: relative;
+    top: -2rem;
+    padding-left: 40rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.second-review {
+    position: relative;
+    top: -5rem;
+} */
