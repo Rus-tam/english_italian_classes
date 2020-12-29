@@ -90,7 +90,13 @@ a:focus {
     padding-bottom: 30px;
 }
 
-.images1, .images2 {
+.images-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images1, .images2, .images3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -158,7 +164,7 @@ a:focus {
     top: -5rem;
 }
 
-/* Necessity */
+/* Necessity Section */
 #necessity {
     background-color: var(--third-section-color);
 }
@@ -242,5 +248,67 @@ footer {
     background-color: rgb(36, 67, 240);
     height: 10vh;
     color: white;
+}
+
+/* Media Query: Tablet or Smaller */
+@media screen and (max-width: 1000px) {
+    /* First Section */
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+        padding-bottom: 1rem;
+    }
+
+    #navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .title-group {
+        padding-top: 0rem;
+    }
+
+    .about-school-section-text {
+        padding-bottom: 10px;
+    }
+
+    h4 {
+        font-size: 10px;
+    }
+
+    .container, .container-4rd-section {
+        margin-right: 10px;
+        width: 130px;
+        height: 130px;
+        padding: 5px 10px;
+        margin-right: 12px;
+    }
+
+    #image1, #image2, #image3, #image4 {
+        height: 90px;
+        width: 90px;
+    }
+
+    .images-container1 {
+        display: inline;
+    }
+
+    .images1 {
+        padding-bottom: 10px;
+    }
+
+    /* Second Section */
+
     
 }
+
