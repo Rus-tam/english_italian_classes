@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Oswald&family=Pacifico&display=swap');
 
 :root {
-    --primary-color: rgb(1, 57, 78);
-    --on-background: rgb(66, 66, 66);
-    --on-background-alt: rgb(66, 66, 66);
+    --primary-color: rgb(4, 3, 82);
+    --on-background: rgb(230, 17, 17);
+    --on-background-alt: rgb(44, 44, 44);
     --about-school-background-image: url('../img/GB.jpg');
     --secondary-color: #ee430f;
     --background: rgb(255, 255, 255);
@@ -17,11 +17,15 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
     margin: 0;
     font-family: Comfortaa, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 section {
@@ -70,7 +74,6 @@ a {
 a:hover,
 a:focus {
     color: var(--on-background);
-    border-bottom: 3px solid;
 }
 
 /* About School Section */
@@ -155,7 +158,7 @@ a:focus {
     top: -5rem;
 }
 
-/* Third Section */
+/* Necessity */
 #necessity {
     background-color: var(--third-section-color);
 }
@@ -184,7 +187,7 @@ a:focus {
     width: 15rem;
 }
 
-/* Fourth Section */
+/* Price Section */
 #price {
     background-color: var(--fourth-section-color);
 }
@@ -197,7 +200,7 @@ a:focus {
 }
 
 .first-row {
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 .container-4rd-section {
@@ -207,5 +210,37 @@ a:focus {
 
 .second-row {
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
+}
+
+/* Reviews */
+#reviews {
+    background-color: var(--second-section-color);
+}
+
+/* Contacts */
+#contacts {
+    background-color: var(--third-section-color);
+    min-height: 90vh;
+}
+
+.social-links {
+    font-size: 10rem;
+}
+
+#contacts, h2 {
+    padding-bottom: 2rem;
+}
+
+#social-links {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(36, 67, 240);
+    height: 10vh;
+    color: white;
+    
 }
