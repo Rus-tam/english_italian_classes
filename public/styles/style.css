@@ -269,6 +269,7 @@ footer {
     }
 
     nav {
+        position: absolute;
         font-size: 12px;
         padding: 10px;
     }
