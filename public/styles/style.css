@@ -313,6 +313,7 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        width: auto;
     }
 
     #image5, #image6, #image12, #image13 {
@@ -356,5 +357,46 @@ footer {
 
     .images3, .images4 {
         margin-bottom: 10px;
+    }
+
+    /* Fourth Section */
+    h3 {
+        font-size: 15px;
+    }
+
+    .container-4rd-section {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .first-row {
+        padding-top: 1rem;
+    }
+
+    .second-row {
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Firth Section */
+    .first-review {
+        padding-left: 15px;
+    }
+
+    /* Sixth Section */
+    .social-links {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #social-links {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .footer_content {
+        margin-left: 10px;
     }
 }
