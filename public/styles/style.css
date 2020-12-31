@@ -90,13 +90,13 @@ a:focus {
     padding-bottom: 30px;
 }
 
-.images-container1 {
+.images-container1, .images-container2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.images1, .images2, .images3 {
+.images1, .images2, .images3, .images4, .images5, .images6 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -273,7 +273,7 @@ footer {
         padding: 10px;
     }
 
-    .title-group {
+    .title-group, .third-section-text-section {
         padding-top: 0rem;
     }
 
@@ -285,7 +285,7 @@ footer {
         font-size: 10px;
     }
 
-    .container, .container-4rd-section {
+    .container, .container-4rd-section, .container-3rd-section {
         margin-right: 10px;
         width: 130px;
         height: 130px;
@@ -293,12 +293,12 @@ footer {
         margin-right: 12px;
     }
 
-    #image1, #image2, #image3, #image4 {
+    #image1, #image2, #image3, #image4, #image7, #image8, #image9, #image10, #image11 {
         height: 90px;
         width: 90px;
     }
 
-    .images-container1 {
+    .images-container1, .images-container2 {
         display: inline;
     }
 
@@ -329,7 +329,6 @@ footer {
         flex-direction: row;
     }
 
-
     .first-teacher-text-section, .second-teacher-text-section, .first-review-text-section, .second-review-text-section p {
         height: 10px;
         width: 200px;
@@ -349,28 +348,13 @@ footer {
         display: flex;
         flex-direction: row;
     }
-}
 
-/* .first-teacher-text-section, .second-teacher-text-section, .first-review-text-section, .second-review-text-section p {
-    height: 200px;
-    width: 500px;
-    line-height: 1.4rem;
-}
+    /* Third Section */
+    .third-section-text-section {
+        text-align: center;
+    }
 
-.second-teacher-text-section, .first-review-text-section, .second-review-text-section {
-    padding-right: 2rem;
+    .images3, .images4 {
+        margin-bottom: 10px;
+    }
 }
-
-.second-teacher, .second-review {
-    z-index: 15;
-    position: relative;
-    top: -2rem;
-    padding-left: 40rem;
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-.second-review {
-    position: relative;
-    top: -5rem;
-} */
