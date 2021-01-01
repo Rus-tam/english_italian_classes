@@ -314,7 +314,7 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        width: auto;
+        width: 600px;
     }
 
     #image5, #image6, #image12, #image13 {
@@ -325,7 +325,7 @@ footer {
     .first-teacher, .first-review {
         position: relative;
         top: -16rem;
-        padding-top: 1rem;
+        padding-top: 2rem;
         padding-right: 2rem;
         display: flex;
         flex-direction: row;
