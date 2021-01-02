@@ -11,8 +11,21 @@
     --second-section-color: rgb(234, 244, 246);
     --third-section-color:rgb(248, 237, 241);
     --fourth-section-color:rgb(254, 254, 254);
-
 }
+
+[data-theme="italy"] {
+    --about-school-background-image: url('../img/Italy.jpg');
+    --primary-color: rgb(150, 65, 255);
+    --primary-variant: #6c63ff;
+    --secondary-color: #03dac5;
+    --on-primary: #000;
+    --on-background: rgb(230, 17, 17);
+    --on-background-alt: rgb(44, 44, 44);
+    --background: rgb(255, 255, 255);
+    --second-section-color: rgb(232, 245, 238);
+    --third-section-color:rgb(254, 254, 254);
+    --fourth-section-color:rgb(251, 236, 237);
+  }
 
 html {
     box-sizing: border-box;
@@ -52,6 +65,18 @@ h2 {
 
 
 /* Navigation */
+.theme-switcher {
+    z-index: 20;
+    position: relative;
+    top: -2rem;
+    left: 113rem;
+}
+
+#flag_img {
+    width: 20px;
+    height: 20px;
+}
+
 nav {
     z-index: 10;
     position: fixed;
@@ -59,6 +84,7 @@ nav {
     font-size: 24px;
     letter-spacing: 3px;
     padding: 25px;
+    padding-bottom: 0px;
     width: 100vw;
     background: rgb(255 255 255 / 50%);
 }
@@ -77,6 +103,7 @@ a:focus {
 }
 
 /* About School Section */
+
 .title-group {
     text-align: center;
 }
@@ -152,7 +179,7 @@ a:focus {
 .second-teacher, .second-review {
     z-index: 15;
     position: relative;
-    top: -2rem;
+    top: -6rem;
     padding-left: 40rem;
     display: flex;
     flex-direction: row-reverse;
@@ -252,6 +279,17 @@ footer {
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
     /* First Section */
+    #main-title {
+        margin-top: 150px;
+    }
+
+    .theme-switcher {
+        z-index: 20;
+        position: relative;
+        top: -7rem;
+        left: 9rem;
+    }
+
     h1 {
         font-size: 20px;
     }
@@ -325,8 +363,9 @@ footer {
     .first-teacher, .first-review {
         position: relative;
         top: -16rem;
-        padding-top: 2rem;
-        padding-right: 2rem;
+        left: 21rem;
+        padding-top: 10rem;
+        /* padding-right: -3rem; */
         display: flex;
         flex-direction: row;
     }
@@ -345,8 +384,8 @@ footer {
     .second-teacher, .second-review {
         z-index: 10;
         position: relative;
-        top: 2rem;
-        right: 20.5rem;
+        top: -4rem;
+        right: 19rem;
         display: flex;
         flex-direction: row;
     }
