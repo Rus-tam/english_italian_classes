@@ -7,6 +7,7 @@ AOS.init({
     mirror: false
 })
 
+
 let isEng = true
 
 // Getting elements by id
@@ -62,7 +63,7 @@ const italianTheme = () => {
     teacherProfile1.innerHTML = '<strong>Преподаватель Сильвио</strong>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum a eligendi tenetur non ut! Commodi rem, consequatur, possimus id at, aliquam eveniet veniam fugiat esse odit distinctio autem temporibus ducimus ipsa ut aperiam praesentium? Aspernatur voluptas voluptatem sed illo nihil voluptatibus velit amet, quisquam aliquam, provident odit, sit inventore dolor beatae. Cumque voluptates dicta autem fuga eveniet, excepturi, accusamus fugit odio, tempora obcaecati iure praesentium ex doloremque nam aspernatur! Facilis, dolorem? Saepe reprehenderit qui aliquam dolores harum sit!'
     teacherProfile2.innerHTML = '<strong>Преподаватель Моника</strong>. . Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum a eligendi tenetur non ut! Commodi rem, consequatur, possimus id at, aliquam eveniet veniam fugiat esse odit distinctio autem temporibus ducimus ipsa ut aperiam praesentium? Aspernatur voluptas voluptatem sed illo nihil voluptatibus velit amet, quisquam aliquam, provident odit, sit inventore dolor beatae. Cumque voluptates dicta autem fuga eveniet, excepturi, accusamus fugit odio, tempora obcaecati iure praesentium ex doloremque nam aspernatur! Facilis, dolorem? Saepe reprehenderit qui aliquam dolores harum sit!'
     reviewProfile1.innerHTML = '<strong>Лучано</strong>. Я выучил итальянский и открыл в себе дар оперного певца. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, pariatur. Suscipit repellendus possimus aspernatur molestias deleniti cupiditate inventore sint dignissimos quidem, amet repudiandae saepe facilis soluta maiores quos adipisci veritatis in sit dolor. Odit nemo nisi reprehenderit impedit sequi quibusdam dolore sunt.'
-    reviewProfile2.innerHTML = '<strong>Софи</strong>. Для съемок в итальянских фидьмах пришлось выучить итальянский. Результатом обучения осталась довольна. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, pariatur. Suscipit repellendus possimus aspernatur molestias deleniti cupiditate inventore sint dignissimos quidem, amet repudiandae saepe facilis soluta maiores quos adipisci veritatis in sit dolor. Odit nemo nisi reprehenderit impedit sequi quibusdam dolore sunt.'
+    reviewProfile2.innerHTML = '<strong>Софи</strong>. Для съемок в итальянских фильмах пришлось выучить итальянский. Результатом обучения осталась довольна. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, pariatur. Suscipit repellendus possimus aspernatur molestias deleniti cupiditate inventore sint dignissimos quidem, amet repudiandae saepe facilis soluta maiores quos adipisci veritatis in sit dolor. Odit nemo nisi reprehenderit impedit sequi quibusdam dolore sunt.'
 
     engContainer1.forEach((item) => {
         item.style.display = 'none'
